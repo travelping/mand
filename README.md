@@ -39,7 +39,7 @@ aware and depend on particular entries in those models.
 - expat
 - libev
 - libtalloc
-- lua 5.1 or 5.2
+- lua 5.1 - 5.3
 - xsltproc
 - python
 - pyang
@@ -74,6 +74,9 @@ libdmconfig API documentation can be build with doxygen:
 	make doxygen-doc
 
 For how to use this API, refer to the C and Lua samples in libdmconfig/tests.
+
+**NOTE:** Currently only the [event_client_sample.c](libdmconfig/tests/event_client_sample.c)
+example builds and reflects the current state of the API.
 
 # Adding new YANG modules
 
